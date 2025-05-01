@@ -1,0 +1,39 @@
+{
+  "podcasts": [
+    {
+      "title": "Beurs",
+      "href": "podcast/beurs.html",
+      "absolute_url": "https://www.bnr.nl/podcast/beurs",
+      "description": "Elke werkdag hoor je het belangrijkste en opvallendste beursnieuws. Van Tesla tot TomTom en van recessie tot reorganisatie. Het nieuws van vandaag, dat jou morgen verder brengt. BNR Beurs: voor de slimme belegger.",
+      "image": "https://bnr-external-prod.imgix.net/a555110aa87e3a93488e9e0d8f9d9e695e8caf08.png?auto=format&amp;ar=1%3A1&amp;fit=crop&amp;crop=faces&amp;q=45&amp;ixlib=react-9.10.0"
+    },
+    {
+      "title": "Boekestijn en De Wijk",
+      "href": "podcast/boekestijn-en-de-wijk.html",
+      "absolute_url": "https://www.bnr.nl/podcast/boekestijn-en-de-wijk",
+      "description": "Arend Jan Boekestijn en Rob de Wijk gaan onder leiding van Hugo Reitsma op zoek naar de nieuwe wereldorde.",
+      "image": "https://bnr-external-prod.imgix.net/d757097107ca3b118bd7469cb81b49449a29004e.png?auto=format&amp;ar=1%3A1&amp;fit=crop&amp;crop=faces&amp;q=45&amp;ixlib=react-9.10.0"
+    },
+    {
+      "title": "Napleiten",
+      "href": "podcast/napleiten.html",
+      "absolute_url": "https://www.bnr.nl/podcast/napleiten",
+      "description": "Misdaadjournalist Wouter Laumans en strafpleiters Christian Flokstra en Ayse Çimen praten met advocaten en officieren van justitie over bijzondere zaken die hen altijd zullen bijblijven.",
+      "image": "https://bnr-external-prod.imgix.net/7d6cadd4c764dc2e003d3f146dfc8b4ae3346f48.png?auto=format&amp;ar=1%3A1&amp;fit=crop&amp;crop=faces&amp;q=45&amp;ixlib=react-9.10.0"
+    },
+    {
+      "title": "Ochtendnieuws",
+      "href": "podcast/ochtendnieuws.html",
+      "absolute_url": "https://www.bnr.nl/podcast/ochtendnieuws",
+      "description": "In 20 minuten loodsen we je door het belangrijkste nieuws van de dag. De podcast voor een vliegende start van je werkdag.",
+      "image": "https://bnr-external-prod.imgix.net/c7bf6706df2199b9eb6dddeac79fe7a56df3e3cb.png?auto=format&amp;ar=1%3A1&amp;fit=crop&amp;crop=faces&amp;q=45&amp;ixlib=react-9.10.0"
+    },
+    {
+      "title": "Studio Den Haag",
+      "href": "podcast/studio-den-haag.html",
+      "absolute_url": "https://www.bnr.nl/podcast/studio-den-haag",
+      "description": "In Studio Den Haag word je bijgepraat over de achterkamertjes en wandelgangen van de Tweede Kamer. Je wekelijkse portie politieke therapie in de podcast, en de dagelijkse Haagse zaken vanuit onze BNR studio in Den Haag.",
+      "image": "https://bnr-external-prod.imgix.net/a45b758dd9591f5a68dfa91593b4d50b9695d1bd.png?auto=format&amp;ar=1%3A1&amp;fit=crop&amp;crop=faces&amp;q=45&amp;ixlib=react-9.10.0"
+    }
+  ]
+}

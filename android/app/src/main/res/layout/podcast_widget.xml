@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/podcast_widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#ffd200">
+
+    <ImageView
+        android:id="@+id/widget_artwork"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Podcast Artwork" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:text="Episode Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <ImageButton
+                android:id="@+id/widget_rewind"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/ic_media_rew"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:tint="#000000"
+                android:contentDescription="Rewind 10s" />
+
+            <Button
+                android:id="@+id/widget_play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:text="Play"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="4dp" />
+
+            <ImageButton
+                android:id="@+id/widget_forward"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/ic_media_ff"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:tint="#000000"
+                android:contentDescription="Forward 10s" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

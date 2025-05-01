@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Map Google Assistant PLAY_MEDIA intent to our deep link -->
+    <capability android:name="actions.intent.PLAY_MEDIA">
+        <intent>
+            <url-template android:value="bnr://play?topic={topic}&latest=true" />
+        </intent>
+        <parameter android:name="mediaType">
+            <entity-set-reference android:resourceId="mediaTypes" />
+        </parameter>
+    </capability>
+
+    <entity-set android:id="@+id/mediaTypes">
+        <entity android:identifier="podcast" android:name="podcast" />
+    </entity-set>
+</actions>
+
